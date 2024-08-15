@@ -13,7 +13,8 @@ This repository contains Terraform configurations for deploying and managing a f
 - **OIDC Integration**: Supports OpenID Connect (OIDC) for Kubernetes service accounts, allowing secure access to AWS services from within the cluster.
 - **Modular Design**: The Terraform code is modular, allowing easy customization and reuse of components.
 
-## Getting Started
+
+**Getting Started
 
 1. **Clone the Repository**:
 
