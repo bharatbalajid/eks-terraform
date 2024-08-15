@@ -23,7 +23,7 @@ This repository contains Terraform configurations for deploying and managing a f
    cd terraform-aws-eks-cluster
    ```
 
-2. **Update Variables**: Customize the `terraform.tfvars` file with your AWS region, VPC settings, and other necessary parameters.
+2. **Update Variables**: Customize the `variables.tf` file with your AWS region, VPC settings, and other necessary parameters.
 
 3. **Initialize Terraform**:
    ```bash
