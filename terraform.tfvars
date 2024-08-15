@@ -6,13 +6,12 @@ availability_zones = ["us-east-1a", "us-east-1b"]
 eks_version = "1.28"
 eks_cluster_name = "my-eks-cluster"
 node_group_name = "my-node-group"
+ami_type = "AL2_ARM_64"
 instance_types = ["t4g.small"]
 desired_capacity = 1
 min_size = 1
 max_size = 3
 disk_size = 20
-ami_type = "AL2_ARM_64"
-
 addons = [
   {
     name    = "aws-ebs-csi-driver"
