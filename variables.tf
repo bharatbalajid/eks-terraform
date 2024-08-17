@@ -66,7 +66,7 @@ variable "ami_type" {
   type        = string
 }
 variable "key" {
-  type        = string
+  type = string
 }
 variable "addons" {
   type = list(object({
@@ -75,5 +75,5 @@ variable "addons" {
   }))
 }
 variable "eks_version" {
-  type    = string
+  type = string
 }
