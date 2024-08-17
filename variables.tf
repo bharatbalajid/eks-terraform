@@ -65,6 +65,9 @@ variable "ami_type" {
   description = "AMI TYPE"
   type        = string
 }
+variable "key" {
+  type        = string
+}
 variable "addons" {
   type = list(object({
     name    = string

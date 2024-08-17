@@ -38,7 +38,7 @@ resource "aws_eks_node_group" "main" {
   disk_size      = var.disk_size
 
   remote_access {
-    ec2_ssh_key = "my-key" # Specify the SSH key pair here
+    ec2_ssh_key = var.key
   }
 
   depends_on = [
