@@ -6,5 +6,10 @@ resource "null_resource" "update_kubeconfig_and_apply_autoscaler" {
         EOT
   }
 
+  provisioner "local-exec" {
+    when    = destroy
+    command = "rm -f ~/.kube/config"
+  }
+
   depends_on = [aws_eks_cluster.main]
 }
