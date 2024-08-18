@@ -9,9 +9,9 @@ node_group_name            = "my-node-group"
 ami_type                   = "AL2_ARM_64"
 key                        = "my-key"
 instance_types             = ["t4g.medium"]
-desired_capacity           = 1
-min_size                   = 1
-max_size                   = 3
+desired_capacity           = 2
+min_size                   = 2
+max_size                   = 5
 disk_size                  = 20
 addons = [
   {
