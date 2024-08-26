@@ -14,7 +14,7 @@ This repository contains Terraform configurations for deploying and managing a f
 - Modular Design**: The Terraform code is modular, allowing easy customization and reuse of components.
 
 
-**Getting Started
+Getting Started
 
 1. **Clone the Repository**:
 
