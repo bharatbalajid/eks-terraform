@@ -5,18 +5,18 @@ This repository contains Terraform configurations for deploying and managing a f
 
 ## Features
 
-- EKS Cluster Creation**: Automates the provisioning of an EKS cluster, including the setup of control planes and worker nodes.
-- VPC Configuration**: Configures a VPC with public and private subnets for secure and scalable networking.
-- IAM Role Management**: Includes detailed IAM policies and roles, allowing EKS to interact with other AWS services securely.
-- Load Balancer Integration**: Configures AWS Load Balancer Controller with the necessary IAM policies to manage Elastic Load Balancers.
-- Addon Policies**: Predefined policies for integrating with AWS services.
-- OIDC Integration**: Supports OpenID Connect (OIDC) for Kubernetes service accounts, allowing secure access to AWS services from within the cluster.
-- Modular Design**: The Terraform code is modular, allowing easy customization and reuse of components.
+- EKS Cluster Creation: Automates the provisioning of an EKS cluster, including the setup of control planes and worker nodes.
+- VPC Configuration: Configures a VPC with public and private subnets for secure and scalable networking.
+- IAM Role Management: Includes detailed IAM policies and roles, allowing EKS to interact with other AWS services securely.
+- Load Balancer Integration: Configures AWS Load Balancer Controller with the necessary IAM policies to manage Elastic Load Balancers.
+- Addon Policies: Predefined policies for integrating with AWS services.
+- OIDC Integration: Supports OpenID Connect (OIDC) for Kubernetes service accounts, allowing secure access to AWS services from within the cluster.
+- Modular Design: The Terraform code is modular, allowing easy customization and reuse of components.
 
 
 Getting Started
 
-1. Clone the Repository**:
+1. Clone the Repository:
 
    ```bash
    git clone https://github.com/bharatbalajid/eks-terraform.git
