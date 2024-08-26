@@ -8,5 +8,5 @@ resource "null_resource" "update_kubeconfig_and_apply_autoscaler" {
     when    = destroy
     command = "rm -f ~/.kube/config"
   }
-  depends_on = [aws_eks_cluster.main]
+  depends_on = [aws_eks_cluster.main, aws_eks_node_group.main, aws_eks_addon.addons]
 }
