@@ -16,7 +16,7 @@ This repository contains Terraform configurations for deploying and managing a f
 
 Getting Started
 
-1. **Clone the Repository**:
+1. Clone the Repository**:
 
    ```bash
    git clone https://github.com/bharatbalajid/eks-terraform.git
